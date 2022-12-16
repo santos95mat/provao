@@ -17,6 +17,7 @@ async function bootstrap() {
     .setTitle('PROVAO_API NEST')
     .setDescription('API criada em Nest.JS para fins de aprendizado')
     .setVersion('1.0')
+    .addServer('https://provaoblue.onrender.com')
     .addServer('http://localhost:3333')
     .addTag('Auth')
     .addTag('Users')
