@@ -14,7 +14,7 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   const config = new DocumentBuilder()
-    .setTitle('MOVIES_API NEST')
+    .setTitle('PROVAO_API NEST')
     .setDescription('API criada em Nest.JS para fins de aprendizado')
     .setVersion('1.0')
     .addServer('http://localhost:3333')
